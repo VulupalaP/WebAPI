@@ -33,7 +33,7 @@ namespace MYFirstWebAPI1.Controllers
             return products;
         }
 
-        // This method would the product based on the id
+        // This method would the product based on the   id
 
         [HttpGet]
         public Product GetProductById(int id)
